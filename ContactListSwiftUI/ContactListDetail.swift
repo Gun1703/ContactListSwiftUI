@@ -13,18 +13,16 @@ struct DetailedContactsList: View {
         List(contacts, id: \.phone) { contact in
             Section(header: Text("\(contact.fullName)")) {
                 HStack{
-                    Image(systemName: "person.circle.fill")
-                        .resizable()
-                        .frame(width: 30, height: 30)
-                        .foregroundColor(.gray)
                     VStack{
                         HStack{
                             Image(systemName: "phone")
                             Text("\(contact.phone)")
+                            Spacer()
                         }
                         HStack{
                             Image(systemName: "envelope")
                             Text("\(contact.email)")
+                            Spacer()
                         }
                     }
                 }
