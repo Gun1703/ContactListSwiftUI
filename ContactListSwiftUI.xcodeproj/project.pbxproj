@@ -47,8 +47,8 @@
 		BBF663742A06D5C10000A064 = {
 			isa = PBXGroup;
 			children = (
-				BBF663902A06DD870000A064 /* Person.swift */,
-				BBF6638E2A06D6500000A064 /* DataManager.swift */,
+				BBF6639B2A06EF450000A064 /* Models */,
+				BBF6639A2A06EF270000A064 /* Managers */,
 				BBF6637F2A06D5C10000A064 /* ContactListSwiftUI */,
 				BBF6637E2A06D5C10000A064 /* Products */,
 			);
@@ -83,6 +83,22 @@
 				BBF663872A06D5C40000A064 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BBF6639A2A06EF270000A064 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				BBF6638E2A06D6500000A064 /* DataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		BBF6639B2A06EF450000A064 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BBF663902A06DD870000A064 /* Person.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
